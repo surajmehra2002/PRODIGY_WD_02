@@ -5,9 +5,9 @@ const display = document.getElementById('display');
 const lapsList = document.getElementById('laps');
 
 function startStopwatch() {
-  var textElement = document.getElementById('stopwatch');
+  // var textElement = document.getElementById('stopwatch');
   
-      textElement.style.background = '#02830280';
+  //     textElement.style.background = '#02830280';
   if (!running) {
     running = true;
     timer = setInterval(updateDisplay, 1000); // Update display every second
@@ -16,17 +16,17 @@ function startStopwatch() {
 
 function pauseStopwatch() {
   if (running==true){
-  var textElement = document.getElementById('stopwatch');  
-      textElement.style.background = '#ff8181';
+  // var textElement = document.getElementById('stopwatch');  
+  //     textElement.style.background = '#ff8181';
     }
   running = false;
   clearInterval(timer);
 }
 
 function resetStopwatch() {
-  var textElement = document.getElementById('stopwatch');
+  // var textElement = document.getElementById('stopwatch');
   
-      textElement.style.background = '';
+  //     textElement.style.background = '';
   running = false;
   clearInterval(timer);
   time = 0;

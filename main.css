@@ -1,3 +1,12 @@
+body{
+    background: url(https://wallpapercave.com/wp/wp2762362.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+      /* Optional: Repeat the background image vertically and horizontally */
+      background-repeat: no-repeat;
+    
+}
 .stopwatch{
     /* border: 1px solid black; */
     text-align: center;
@@ -7,7 +16,7 @@
     width: 35%;
     /* max-width: 10%; */
     padding: 40px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); */
 
 }
 button{
